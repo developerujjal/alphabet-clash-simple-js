@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 651px;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #1E1E1E;
+}
+
+.contetn-box-container{
+    color: white;
+    width: 37%;
+    margin: 0px auto;
+    text-align: center;
+    /* min-height: 100vh; */
+}
+
+.contetn-box-container h1{
+    font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.contetn-box-container p{
+    font-size: 12px;
+}
+
+.contetn-box-container button{
+    padding: 6px 12px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    transition: 0.2s;
+}
+
+
+.contetn-box-container button:hover{
+    background-color: #1E1E1E;
+    cursor: pointer;
+    color: white;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* second section */
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+    min-height: 100vh;
+}
+
+.screen-board{
+    border: 12px solid #2F2941;
+    min-height: 25vh;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #FFFFFFB3;
+}
+
+.topbar-connect{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-10px);
+    
+}
+
+.topbar-connect p {
+    margin: 0;
+    background-color: #2F2941;
+    color: white;
+    padding: 5px 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 10px;
+}
+
+.letter-counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.letter-counter-container p{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+
+
+
+/* Keyword desgin */
+
+.keyboard {
+    display: flex;
+    color: white;
+    /* width: 37%;
+    flex-wrap: wrap; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .keyboard-stuff {
+    display: flex;
+    justify-content: center;
+} */
+
+.first-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    margin-top: 7px;
+}
+
+
+.key {
+    padding: 4px 10px;
+    /* border: 2px solid white; */
+    background-color: white;
+    margin-right: 9px;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+
+.key:last-child{
+    margin-right: 0px;
+}
+
+.first-line:first-child{
+    margin-top: 0px;
+}
+
+
+/* btn */
+
+.score-container {
+    /* border: 2px solid white; */
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    padding: 5px 7px;
+    font-size: 13px;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.score-container img {
+    width: 30%;
+}
+
+.score-one{
+    background-color: #894189;
+}
+
+.score-two{
+    background-color: #360490;
+    padding:  5px 10px;
+   
+}
+
+.btn-score {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.sec-section {
+    display: none;
+}
+
+
+.play-again-container {
+    color: white;
+    width: 18%;
+    text-align: center;
+    padding: 5px 10px;
+    background-image: linear-gradient(120deg, #FFFFFFA1, #824BD2, #5A21B3);
+    /* background-color: #442582; */
+    border-radius: 8px;
+}
+
+
+section.play-again {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: none;
+}
+
+.play-again-container h2 {
+    font-size: 2.4rem;
+    margin: 0;
+   
+}
+
+.play-again-container button {
+    padding: 6px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.play-again-container button:hover{
+    cursor: pointer;
+    background-color: #1E1E1E;
+    color: white;
+}
