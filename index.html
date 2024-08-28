@@ -11,22 +11,22 @@
 <body>
 
     <main>
-        <section class="first-section">
+        <section id="first-sec" class="first-section">
             <div class="contetn-box-container">
                 <h1>ALPHABET CLASH</h1>
                 <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
-                <button>Play Now</button>
+                <button id="play-btn">Play Now</button>
             </div>
         </section>
 
-        <section class="sec-section">
+        <section id="second-sec" class="sec-section hidden">
             <div class="main">
                 <div class="screen-board">
                     <div class="topbar-connect">
                         <p>Don't watch keyboard while playing...</p>
                     </div>
                     <div class="letter-counter-container">
-                        <p>Y</p>
+                        <p id="output-text">Y</p>
                     </div>
                 </div>
                 <div class="keyboard-stuff">
@@ -85,7 +85,7 @@
             </div>
         </section>
 
-        <section class="play-again">
+        <section class="play-again hidden">
             <div class="play-again-container">
                 <h2>Score: <span>00</span></h2>
                 <button>Play Now</button>
@@ -93,6 +93,9 @@
             </div>
         </section>
     </main>
+
+    <script src="js/utility.js"></script>
+    <script src="js/game.js"></script>
 </body>
 
 </html>

@@ -196,11 +196,6 @@ main{
 }
 
 
-.sec-section {
-    display: none;
-}
-
-
 .play-again-container {
     color: white;
     width: 18%;
@@ -217,7 +212,7 @@ section.play-again {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    display: none;
+    
 }
 
 .play-again-container h2 {
@@ -240,3 +235,8 @@ section.play-again {
     background-color: #1E1E1E;
     color: white;
 }
+
+.hidden{
+    display: none !important;
+}
+
