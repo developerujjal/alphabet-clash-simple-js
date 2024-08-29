@@ -240,3 +240,6 @@ section.play-again {
     display: none !important;
 }
 
+.bg-color-box{
+    background-color: #FFA500;
+}
